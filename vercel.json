@@ -1,21 +1,13 @@
 {
-  "version": 2,
-  "name": "illusion-creative-studio",
-  "builds": [
+  "rewrites": [
     {
-      "src": "index.html",
-      "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ],
   "headers": [
     {
-      "source": "/(.*)",
+      "source": "/assest/(.*)",
       "headers": [
         {
           "key": "Cache-Control",
@@ -24,7 +16,7 @@
       ]
     },
     {
-      "source": "/assest/(.*)",
+      "source": "/(.*\\.(css|js|png|jpg|jpeg|gif|svg|mp4|webm|ogg|mp3|wav|flac|aac|woff|woff2|eot|ttf|otf))",
       "headers": [
         {
           "key": "Cache-Control",
