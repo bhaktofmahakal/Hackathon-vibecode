@@ -1,0 +1,37 @@
+{
+  "name": "illusion-creative-studio",
+  "version": "1.0.0",
+  "description": "Creative production studio website with interactive 3D visuals and video content",
+  "main": "index.html",
+  "homepage": "https://illusion-creative.vercel.app",
+  "scripts": {
+    "dev": "npx serve . -p 3000",
+    "start": "npx serve . -p 3000",
+    "build": "echo 'Static site ready for deployment'",
+    "deploy": "vercel --prod",
+    "preview": "vercel"
+  },
+  "keywords": [
+    "creative",
+    "studio",
+    "portfolio",
+    "3d",
+    "interactive",
+    "web",
+    "video",
+    "design",
+    "animation"
+  ],
+  "author": "Illusion Creative Studio",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/illusion-creative/website"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "serve": "^14.0.0"
+  }
+}

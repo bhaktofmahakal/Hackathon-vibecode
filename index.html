@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Illusion - Realise Your Creative Ideas</title>
+    <meta name="description" content="Illusion is a Bristol based award-winning creative production studio specializing in 3D visual storytelling and interactive web experiences.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assest/favicon.ico">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="enhanced-styles.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Meta tags for SEO -->
+    <meta property="og:title" content="Illusion - Realise Your Creative Ideas">
+    <meta property="og:description" content="Bristol based award-winning creative production studio specializing in 3D visual storytelling and interactive web experiences.">
+    <meta property="og:image" content="assest/stats.png">
+    <meta property="og:url" content="https://illusion.co">
+    <meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+
+
+    <!-- Main Canvas -->
+    <canvas id="canvas"></canvas>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="header-container">
+            <div class="header-logo">
+                <a href="#" aria-label="Illusion Home">
+                    <h1>ILLUSION</h1>
+                </a>
+            </div>
+            
+            <nav class="header-nav">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            
+            <div class="header-actions">
+                <a href="mailto:hello@illusion.co" class="btn-contact">Let's Talk</a>
+                <button class="menu-toggle" id="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="mobile-menu-content">
+            <a href="#home" class="mobile-nav-link">Home</a>
+            <a href="#about" class="mobile-nav-link">About</a>
+            <a href="#projects" class="mobile-nav-link">Projects</a>
+            <a href="#contact" class="mobile-nav-link">Contact</a>
+            <a href="mailto:hello@illusion.co" class="mobile-contact-btn">Let's Talk</a>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-background">
+                <video class="hero-video" autoplay muted loop playsinline>
+                    <source src="assest/homepage.mp4" type="video/mp4">
+                </video>
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="hero-title-line">Realise Your</span>
+                    <span class="hero-title-line">Creative Ideas</span>
+                </h1>
+                <p class="hero-description">
+                    We are a Bristol based award-winning creative production studio specializing in 3D visual storytelling and interactive web experiences.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn-primary">View Our Work</a>
+                    <a href="#contact" class="btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-scroll-indicator">
+                <div class="scroll-line"></div>
+                <span>Scroll Down</span>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">About Us</h2>
+                    <p class="section-subtitle">Creative minds crafting digital experiences</p>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            We are a team of creative professionals dedicated to bringing your vision to life through cutting-edge technology and innovative design. Our expertise spans across 3D animation, interactive web experiences, and immersive digital storytelling.
+                        </p>
+                        <p>
+                            With years of experience in the industry, we've helped brands and businesses create memorable digital experiences that engage, inspire, and convert.
+                        </p>
+                    </div>
+                    <div class="about-stats">
+                        <img src="assest/stats.png" alt="Company Statistics" class="stats-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features & Services Section -->
+        <section id="services" class="services-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Our Services</h2>
+                    <p class="section-subtitle">Comprehensive creative solutions</p>
+                </div>
+                <div class="services-content">
+                    <div class="services-video">
+                        <video autoplay muted loop playsinline>
+                            <source src="assest/features-services.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="services-list">
+                        <div class="service-item">
+                            <h3>3D Animation & Modeling</h3>
+                            <p>Creating stunning 3D visuals and animations that bring your ideas to life with photorealistic quality.</p>
+                        </div>
+                        <div class="service-item">
+                            <h3>Interactive Web Experiences</h3>
+                            <p>Developing immersive digital experiences that engage users and drive meaningful interactions.</p>
+                        </div>
+                        <div class="service-item">
+                            <h3>Motion Graphics</h3>
+                            <p>Designing dynamic visual content that tells your story through compelling motion and design.</p>
+                        </div>
+                        <div class="service-item">
+                            <h3>Digital Storytelling</h3>
+                            <p>Crafting narratives that resonate with your audience through innovative digital mediums.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Our Projects</h2>
+                    <p class="section-subtitle">Showcasing our creative excellence</p>
+                </div>
+                <div class="projects-showcase">
+                    <div class="showcase-video">
+                        <video autoplay muted loop playsinline>
+                            <source src="assest/showcase work.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="projects-carousel">
+                        <div class="carousel-container">
+                            <video autoplay muted loop playsinline>
+                                <source src="assest/caraousel switch.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects-features">
+                    <div class="feature-item">
+                        <div class="feature-video">
+                            <video autoplay muted loop playsinline>
+                                <source src="assest/parallax animation.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="feature-info">
+                            <h3>Parallax Animations</h3>
+                            <p>Smooth parallax effects that create depth and immersion</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-video">
+                            <video autoplay muted loop playsinline>
+                                <source src="assest/ripple effect.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="feature-info">
+                            <h3>Interactive Effects</h3>
+                            <p>Engaging ripple effects and interactive elements</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-video">
+                            <video autoplay muted loop playsinline>
+                                <source src="assest/scroll and pop up.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="feature-info">
+                            <h3>Scroll Animations</h3>
+                            <p>Smooth scroll-triggered animations and pop-ups</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-video">
+                            <video autoplay muted loop playsinline>
+                                <source src="assest/striking - any simple object can be used.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="feature-info">
+                            <h3>3D Object Integration</h3>
+                            <p>Seamless integration of 3D objects in web experiences</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="testimonials-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">What Our Clients Say</h2>
+                    <p class="section-subtitle">Trusted by creative professionals worldwide</p>
+                </div>
+                <div class="testimonials-content">
+                    <div class="testimonials-video">
+                        <video autoplay muted loop playsinline>
+                            <source src="assest/testimonials.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="testimonials-text">
+                        <div class="testimonial-item">
+                            <blockquote>
+                                "Illusion transformed our vision into reality. Their attention to detail and creative approach exceeded our expectations."
+                            </blockquote>
+                            <cite>- Sarah Johnson, Creative Director</cite>
+                        </div>
+                        <div class="testimonial-item">
+                            <blockquote>
+                                "Working with Illusion was a game-changer for our brand. Their 3D animations brought our products to life."
+                            </blockquote>
+                            <cite>- Mark Thompson, Brand Manager</cite>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Customer Section -->
+        <section id="customers" class="customers-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Our Customers</h2>
+                    <p class="section-subtitle">Partnering with innovative brands</p>
+                </div>
+                <div class="customers-content">
+                    <video autoplay muted loop playsinline>
+                        <source src="assest/customer-section.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </section>
+
+        <!-- Analytics Section -->
+        <section id="analytics" class="analytics-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Data-Driven Results</h2>
+                    <p class="section-subtitle">Performance analytics that matter</p>
+                </div>
+                <div class="analytics-content">
+                    <div class="analytics-graph">
+                        <img src="assest/graph.png" alt="Performance Graph" class="graph-image">
+                    </div>
+                    <div class="analytics-cards">
+                        <img src="assest/cards.png" alt="Analytics Cards" class="cards-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Let's Create Together</h2>
+                    <p class="section-subtitle">Ready to bring your vision to life?</p>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <h3>Get In Touch</h3>
+                            <p><a href="mailto:hello@illusion.co">hello@illusion.co</a></p>
+                        </div>
+                        <div class="contact-item">
+                            <h3>Location</h3>
+                            <p>Bristol, United Kingdom</p>
+                        </div>
+                        <div class="contact-item">
+                            <h3>Services</h3>
+                            <p>3D Animation • Web Development • Motion Graphics • Digital Storytelling</p>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <form id="contact-form">
+                            <div class="form-group">
+                                <input type="text" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" name="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <select name="service" required>
+                                    <option value="">Select a Service</option>
+                                    <option value="3d-animation">3D Animation</option>
+                                    <option value="web-development">Web Development</option>
+                                    <option value="motion-graphics">Motion Graphics</option>
+                                    <option value="digital-storytelling">Digital Storytelling</option>
+                                    <option value="consultation">Consultation</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <textarea name="message" placeholder="Tell us about your project..." rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>ILLUSION</h3>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <a href="mailto:hello@illusion.co">Email</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Illusion Creative Studio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="app.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
