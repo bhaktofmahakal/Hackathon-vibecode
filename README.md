@@ -1,15 +1,58 @@
-# Illusion Creative Studio Website
+# ⚡ Tech Stack Styling Animation — Hackathon Project
 
-A modern, interactive website for Illusion Creative Studio featuring 3D visuals and smooth animations.
+### 🏆 Built during a 4-hour frontend coding hackathon organized by **IIT Bhubaneswar**  
+📅 _Same-day submission (2PM–6PM)_
 
-## Features
+---
 
-- ✨ Modern responsive design
-- 🎨 Three.js powered 3D canvas
-- 📱 Mobile-friendly navigation
-- 🎯 Smooth scrolling and animations
-- 📧 Newsletter subscription
-- 📬 Contact forms
+## 🚀 Project Overview
+
+This immersive web experience was **designed and developed live under pressure**, showcasing cutting-edge **animation**, **responsiveness**, and **interactivity** — all within just a few hours.
+
+---
+
+## 🎯 Features
+
+| Experience        | Description                                                        |
+|-------------------|--------------------------------------------------------------------|
+| 🌀 **3D GSAP Loader**   | Rotating multi-layer animated loading screen                     |
+| 🔍 **Scroll Reveal**    | Smooth entrance of sections as you scroll                        |
+| 🎞 **Showcase Work**    | Parallax or horizontally scrolling featured projects             |
+| 💬 **Testimonials**     | Auto-rotating client feedback with smooth transitions            |
+| 🔁 **Carousel**         | Autoplay + manually switchable content carousel                  |
+| 🤝 **Clients Grid**     | Motion-enhanced brand logos or user avatars                      |
+| 🧩 **Feature Cards**    | Interactive service highlights with hover effects                |
+| ✨ **Hero Section**     | Fullscreen animated intro with glowing text                      |
+| 📊 **Stats & Graphs**   | Animated counters and charts with dynamic updates                |
+| 💧 **Ripple Effect**    | Material-inspired ripple animations on button clicks             |
+
+---
+
+## 📦 Tech Stack
+
+- **HTML5**, **CSS3**, **JavaScript (ES6)**
+- **GSAP** for animations
+- **Three.js** (optional for 3D)
+- **Responsive Design** principles
+- **Modern CSS Units**: `clamp()`, `min()`, `max()`, `vh`, `vw`
+- **Optimized Assets** & performance tweaks
+
+---
+
+## ✅ Status
+
+- Fully functional frontend demo
+- Built in 4 hours from scratch
+- Tested across major modern browsers
+
+---
+
+
+## 📤 Want to Deploy?
+
+1. **Clone the Repo**  
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
 
 ## Quick Deploy to Vercel
 
